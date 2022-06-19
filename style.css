@@ -6,13 +6,17 @@
 body{
    
    width: 100%;
-   background-color: hsl(193, 100%, 96%);
+ 
 
 }
 header{
     width: 100%;
     background-image: url("images/bg-hero-desktop.svg") ;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(193, 100%, 96%);
+
    
     
 }
@@ -31,4 +35,21 @@ nav{
     padding: 15px;
     text-align: center;
     border-radius: 50px;
+}
+#section1{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    margin: 20px;
+   
+    
+}
+#summary{
+    width: 70%;
+    margin: 15px;
+}
+#summary_image>img{
+    width: 100%;
 }
