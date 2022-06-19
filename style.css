@@ -47,9 +47,22 @@ nav{
     
 }
 #summary{
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin: 15px;
+    align-items: right;
+}
+#summary>*{
+    margin: 10px;
 }
 #summary_image>img{
     width: 100%;
+}
+#summary_button{
+    background-color: hsl(322, 100%, 66%);
+    text-align: center;
+    width: 40%;
+    border-radius: 50px;
+    padding: 20px;
 }
