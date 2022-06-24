@@ -141,7 +141,7 @@ p{
     color: white;
     width: 100%;
     background-color:  hsl(192, 100%, 9%);
-    display: block;
+    padding: 1%;
    
 }
 .logo>img{
@@ -336,12 +336,11 @@ margin: 10px;
         cursor: pointer;
     }
     .copyright{
-        position: absolute;
-        bottom: 0px;
         text-align: center;
         color: white;
         width: 100%;
         background-color:  hsl(192, 100%, 9%);
+        padding: 10%;
        
     }
     .logo>img{
@@ -362,7 +361,7 @@ margin: 10px;
         font-size: 12px;
     }
     .location>div{
-       margin: 0px;
+       margin: 10px;
     }
     #column{
         display: flex;
